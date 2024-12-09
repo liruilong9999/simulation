@@ -1,0 +1,13 @@
+package EntityObject
+{
+	struct data1
+	{
+		//<属性1>
+		int a;
+		//<属性2>
+		int b;
+	};
+};
+
+["句柄1"]
+HANDLE TOPIC_DATA1 = EntityObject::data1;
