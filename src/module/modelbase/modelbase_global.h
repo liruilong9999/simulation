@@ -1,0 +1,12 @@
+#ifndef MODELBASE_GLOBAL_H__20241209
+#define MODELBASE_GLOBAL_H__20241209
+
+#include <QtCore/qglobal.h>
+
+#if defined(MODELBASE_LIBRARY)
+#define MODELBASE_EXPORT Q_DECL_EXPORT
+#else
+#define MODELBASE_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif

@@ -1,5 +1,5 @@
-# add_subdirectory(appskeleton)
-# set_property(TARGET appskeleton PROPERTY FOLDER "module")
+add_subdirectory(modelbase)
+set_property(TARGET modelbase PROPERTY FOLDER "module")
 
 
 
