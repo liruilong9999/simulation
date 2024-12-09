@@ -1,0 +1,19 @@
+<modelList>
+	<name="模型a" path="ModelA" isUse="true"/>
+	<name="模型b" path="ModelB" isUse="true"/>
+	<name="模型c" path="ModelC" isUse="true"/>
+	<name="模型d" path="ModelD" isUse="false"/>
+</modelList>
+
+<entityList>
+	<name="实体1" path="EntityModel1">
+		<params>
+			<name="模型a" path="ModelA">
+				<param="">
+			</name>
+			<name="模型b" path="ModelB"/>
+			<name="模型b_2" path="ModelB"/>
+		</params>
+	</name>
+
+</entityList>
